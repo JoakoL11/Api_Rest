@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from routers import orquestacion, servicios, seguridad
-
+from fastapi.responses import RedirectResponse
 
 app = FastAPI(
     debug=True,
@@ -10,7 +10,7 @@ app = FastAPI(
 
 @app.get("/")
 def home():
-    return {"mensaje": "Bienvenido a la API de Logística Global"}
+    return RedirectResponse(url="/docs")
 
 app.include_router(servicios.router)
 app.include_router(orquestacion.router)
