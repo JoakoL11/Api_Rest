@@ -35,8 +35,8 @@ Esta es una API REST desarrollada con **FastAPI** para el caso de estudio de **a
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
+git clone https://github.com/JoakoL11/Api_Rest.git
+cd ApiRest
 ```
 2.Crea y activa un entorno virtual:
 ```bash
