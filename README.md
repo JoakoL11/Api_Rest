@@ -51,4 +51,4 @@ pip install -r requirements.txt
 ```bash
 uvicorn main:app --reload
 
-https://railway.com/project/69d2bf7c-0771-4cb6-b2f8-f3955f56bbbc/service/e263de6b-e081-4162-b7ca-d71dbf776640?environmentId=6ee4c60c-5c63-4866-826b-32f8706f66b4&id=6b513bbe-051f-4a68-85e3-83ce2173e024#details
+https://apirest-production-c97e.up.railway.app/docs
